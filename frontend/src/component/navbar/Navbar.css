@@ -1,0 +1,48 @@
+.Navbar {
+    background-color: rgb(100, 66, 34);
+    position: fixed;
+    width: 100vw;
+}
+
+.Navbar__logo img {
+    padding: 10px;
+}
+
+.Navbar__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 280px;
+}
+
+.Navbar__nav ul{
+    display: flex;
+    gap: 50px;
+}
+
+.Navbar__nav ul li {
+    list-style: none;
+}
+
+.Navbar__nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.Navbar__nav ul li a:hover {
+    color: #be9874;
+}
+
+.Navbar__reservationbtn button {
+    background-color: #be9874;
+    border-radius: none;
+    padding: 16px 30px;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.Navbar__Reservationbtn button:hover {
+    background-color: #be9875;
+}

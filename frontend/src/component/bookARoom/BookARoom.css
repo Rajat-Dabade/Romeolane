@@ -1,0 +1,30 @@
+.BookARoom {
+    background-color: white;
+    padding: 40px 50px;
+    box-sizing: border-box;
+}
+
+.BookARoom__heading h1 {
+    font-family: 'Jost', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.BookARoom__inputfield {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 60px;
+}
+
+.BookARoom__inputfield button {
+    width: 100%;
+    height: 70px;
+    margin-top: 25px;
+    background-color: #be9874;
+    border: none;
+    color: white;
+    font-size: 17px;
+}

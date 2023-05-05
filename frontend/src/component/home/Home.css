@@ -1,0 +1,22 @@
+.Home {
+    padding-top: 80px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../assets/aboutHero.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 91vh;
+    font-family: 'Jost', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.Home__heading {
+    color: white;
+}
+
+.Home__heading h1 {
+    font-size: 90px;
+    letter-spacing: 4px;
+}
