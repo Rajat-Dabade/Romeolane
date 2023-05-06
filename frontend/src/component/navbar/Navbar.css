@@ -2,17 +2,20 @@
     background-color: rgb(100, 66, 34);
     position: fixed;
     width: 100vw;
+    z-index: 100;
 }
 
 .Navbar__logo img {
     padding: 10px;
+    z-index: 100;
 }
 
 .Navbar__content {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 280px;
+    max-width: 1250px;
+    margin: auto;
 }
 
 .Navbar__nav ul{
@@ -45,4 +48,73 @@
 
 .Navbar__Reservationbtn button:hover {
     background-color: #be9875;
+}
+
+.Navbar__handburgermenu {
+    display: none;
+}
+
+.Navbar__handburgermenu-nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: rgb(100, 66, 34);
+    width: 30%;
+    height: 100vh;
+    padding: 50px;
+}
+
+.Navbar__handburgermenu-icon {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    margin-bottom: 40px;
+}
+
+.Navbar__handburgermenu-nav ul {
+    list-style: none;
+}
+
+.Navbar__handburgermenu-nav ul li {
+    text-align: center;
+    font-size: 21px;
+    line-height: 70px;
+}
+
+.Navbar__handburgermenu-nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .Navbar {
+        background-color: transparent;
+    }
+
+    .Navbar__handburgermenu {
+        display: block;
+        margin-right: 50px;
+    }
+
+    .Navbar__content {
+        width: 90%;
+    }
+
+    .Navbar__logo {
+        margin: 20px;
+    }
+
+    .Navbar__logo img {
+        width: 100px;
+        height: auto;
+    }
+
+    .Navbar__nav {
+        display: none;
+    }
+
+    .Navbar__reservationbtn {
+        display: none;
+    }
+
 }

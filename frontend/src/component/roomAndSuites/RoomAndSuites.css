@@ -1,0 +1,27 @@
+.RoomAndSuites {
+    margin-top: 100px;
+}
+
+.RoomAndSuites__heading {
+    text-align: center;
+}
+
+.RoomAndSuites__heading p {
+    color: #644222;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 700;
+    width: 50%;
+    margin: auto;
+}
+
+.RoomAndSuites__heading h1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.RoomAndSuites__description {
+    color: #6e6e6e !important;
+    font-size: 15px !important;
+    font-weight: 400 !important;
+}

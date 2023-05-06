@@ -1,15 +1,20 @@
-.Home {
-    padding-top: 80px;
+.Home__header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../assets/aboutHero.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 91vh;
+    height: auto;
     font-family: 'Jost', sans-serif;
+}
+
+.Home__main {
+    padding-top: 150px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 50px;
+    width: 85%;
+    margin: auto;
+    padding-bottom: 50px;
 }
 
 .Home__heading {
@@ -19,4 +24,46 @@
 .Home__heading h1 {
     font-size: 90px;
     letter-spacing: 4px;
+}
+
+.Home__heading p {
+    margin-top: 20px;
+    max-width: 650px;
+    font-size: 18px;
+    line-height: 35px;
+}
+
+.Home__heading button {
+    margin-top: 20px;
+    background-color: transparent;
+    color: white;
+    padding: 20px;
+    border-style: none;
+    border: 2px solid white;
+    font-size: 17px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+@media (max-width: 1076px) {
+    .Home__main {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 130px;
+    }
+
+    .Home__heading {
+        text-align: center;
+        margin-bottom: 100px;
+    }
+
+    .Home__heading h1 {
+        font-size: 70px;
+        letter-spacing: 2px;
+    }
+
+
+    .Home__heading p {
+        max-width: 100%;
+    }
 }
