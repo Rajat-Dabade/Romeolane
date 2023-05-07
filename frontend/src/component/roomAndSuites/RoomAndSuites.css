@@ -24,4 +24,12 @@
     color: #6e6e6e !important;
     font-size: 15px !important;
     font-weight: 400 !important;
+    margin-bottom: 40px !important;
+}
+
+.RoomAndSuites__cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
 }
