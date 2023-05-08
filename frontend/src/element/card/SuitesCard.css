@@ -20,6 +20,8 @@
     padding: 20px 40px;
     background-color: #644222;
     color: white;
+    font-size: 15px;
+    font-weight: 700;
     transform: translateY(-3px);
 }
 

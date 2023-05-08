@@ -1,0 +1,72 @@
+.AboutRooms {
+    display: flex;
+    background-color: rgb(247, 245, 241);
+    align-items: center;
+    justify-content: center;
+}
+
+.AboutRooms__image img {
+    width: 50vw;
+}
+
+.AboutRooms__content {
+    padding: 30px;
+}
+
+.AboutRooms__content-subheading {
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(35, 35, 35);
+}
+
+.AboutRooms__content h1 {
+    font-size: 70px;
+    color: rgb(35, 35, 35);
+    font-weight: 700;
+    line-height: 70px;
+}
+
+.AboutRooms__content-description {
+    font-size: 15px;
+    color: rgb(110, 110, 110);
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    margin: 20px 0;
+}
+
+.AboutRooms__content button {
+    margin: 20px 0;
+    border: none;
+    text-transform: uppercase;
+    padding: 25px 30px;
+    background: rgb(100, 66, 34);
+}
+
+.AboutRooms__content button a {
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+@media (max-width: 1272px) {
+    .AboutRooms__image img {
+        padding: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .AboutRooms {
+        flex-direction: column;
+    }
+
+    .AboutRooms__image img {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .AboutRooms__content {
+        padding: 40px;
+    }
+}
