@@ -1,0 +1,16 @@
+.Header {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.Header h1 {
+    color: white;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 60px;
+}

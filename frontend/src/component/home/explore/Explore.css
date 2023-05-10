@@ -3,6 +3,11 @@
     padding: 100px 0;
 }
 
+.Explore__content {
+    max-width: 1600px;
+    margin: auto;
+}
+
 .Explore__heading {
     text-align: center;
 }

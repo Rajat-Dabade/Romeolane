@@ -1,5 +1,5 @@
 .RoomAndSuites {
-    margin: 100px 0;
+    padding: 100px 0;
 }
 
 .RoomAndSuites__heading {
@@ -32,4 +32,6 @@
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
+    max-width: 1600px;
+    margin: auto;
 }

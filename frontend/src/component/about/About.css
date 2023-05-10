@@ -1,0 +1,30 @@
+.heading___about {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../assets/aboutHeaderSectionImg.jpg");
+  background-position: center;
+  background-size: cover;
+  color: white;
+  font-size: xxx-large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  font-family: "Jost", sans-serif;
+}
+
+.about_discoverMore_btn button {
+  background-color: #86461c;
+  border-radius: none;
+  padding: 16px 30px;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.sub_heading_aboutUs {
+  color: #86461c;
+  font-family: "Jost", sans-serif;
+  font-weight: bolder;
+}
+

@@ -36,13 +36,13 @@ const Navbar = () => {
                     <Link to="/about">About</Link>
                   </li>
                   <li>
-                    <Link to="/about">Our Rooms</Link>
+                    <Link to="/our-rooms">Our Rooms</Link>
                   </li>
                   <li>
                     <Link to="/about">Gallery</Link>
                   </li>
                   <li>
-                    <Link to="/about">Contact</Link>
+                    <Link to="/contact">Contact</Link>
                   </li>
                 </ul>
               </div>
@@ -72,13 +72,13 @@ const Navbar = () => {
                                          <Link to="/about">About</Link>
                                        </li>
                                        <li>
-                                         <Link to="/about">Our Rooms</Link>
+                                         <Link to="/our-rooms">Our Rooms</Link>
                                        </li>
                                        <li>
                                          <Link to="/about">Gallery</Link>
                                        </li>
                                        <li>
-                                         <Link to="/about">Contact</Link>
+                                         <Link to="/contact">Contact</Link>
                                        </li>
                                      </ul>
                                    </nav>}

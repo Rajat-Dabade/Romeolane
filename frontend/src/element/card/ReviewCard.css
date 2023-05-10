@@ -1,0 +1,36 @@
+.ReviewCard {
+    width: 350px;
+    background-color: white;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 15px;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+.ReviewCard > img {
+    position: absolute;
+    right: 40px;
+}
+
+.ReviewCard__client h2 {
+    color: rgb(100, 66, 34);
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.ReviewCard__client p {
+    color: rgb(100, 66, 34);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.ReviewCard__review p {
+    font-size: 15px;
+    color: rgb(110, 110, 110);
+    font-weight: 400;
+    line-height: 26px;
+}

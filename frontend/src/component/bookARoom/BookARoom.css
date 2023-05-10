@@ -2,6 +2,7 @@
     background-color: white;
     padding: 40px 50px;
     box-sizing: border-box;
+    max-width: 520px;
 }
 
 .BookARoom__heading h1 {
@@ -29,7 +30,7 @@
     font-size: 17px;
 }
 
-@media (max-width: 527px) {
+@media (max-width: 571px) {
     .BookARoom__inputfield {
         flex-direction: column;
     }

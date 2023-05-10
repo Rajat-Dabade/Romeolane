@@ -1,0 +1,31 @@
+.copyRight__footer {
+    padding: 20px 0;
+  height: auto;
+  background-color: rgb(82, 78, 78);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.copyright__content p {
+  margin: 0;
+  padding: 0;
+}
+
+.copyright__content {
+  display: flex;
+  width: 78%;
+  justify-content: space-between;
+  margin: auto;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.copyright_Icons {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}

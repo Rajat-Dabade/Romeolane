@@ -29,6 +29,7 @@
 
 .AboutRooms__content-description {
     font-size: 15px;
+    line-height: 25px;
     color: rgb(110, 110, 110);
     font-weight: 400;
     font-family: 'Roboto', sans-serif;
@@ -58,7 +59,7 @@
 
 @media (max-width: 768px) {
     .AboutRooms {
-        flex-direction: column;
+        flex-direction: column !important;
     }
 
     .AboutRooms__image img {

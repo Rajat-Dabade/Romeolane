@@ -1,0 +1,9 @@
+.OurRooms {
+    padding-top: 70px;
+}
+
+@media (max-width: 768px) {
+    .OurRooms {
+        padding-top: 0;
+    }
+}

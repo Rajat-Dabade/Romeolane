@@ -1,0 +1,63 @@
+.BestPrice {
+    display: flex;
+    align-items: center;
+    margin: 70px auto;
+    flex-wrap: wrap;
+    padding: 30px 40px;
+    justify-content: center;
+    max-width: 1600px;
+}
+
+.BestPrice__content {
+    box-sizing: border-box;
+    flex-basis: 32%;
+    padding: 50px;
+}
+
+.BestPrice__content-subheading {
+    color: #644222;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.BestPrice__content h1 {
+    color: rgb(35, 35, 35);
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 78px;
+}
+
+.BestPrice__content-description {
+    font-size: 15px;
+    line-height: 25px;
+    color: rgb(110, 110, 110);
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    margin: 20px 0;
+}
+
+.BestPrice__cards {
+    flex-basis: 55%;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 1513px) {
+    .BestPrice {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 905px) {
+    .BestPrice__cards {
+        flex-wrap: wrap;
+    }
+}
+
+
+@media (max-width: 530px) {
+    .BestPrice {
+        padding: 10px;
+    }
+}

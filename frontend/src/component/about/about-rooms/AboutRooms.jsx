@@ -6,7 +6,7 @@ import './AboutRooms.css'
 const AboutRooms = (props) => {
 
   const styles = {
-    flexDirection:  props.additionalStyle
+    flexDirection:  props.flexDirection,
   }
 
   return (
