@@ -7,6 +7,9 @@ import {GiTeapotLeaves} from 'react-icons/gi'
 import {GiMeal} from 'react-icons/gi'
 import {MdOutlinePool} from 'react-icons/md'
 
+import NegXAnimate from '../animation/NegXAnimate'
+import YAnimate from '../animation/YAnimate'
+
 import './SuitesCard.css'
 
 const style = {
@@ -18,14 +21,14 @@ const SuitesCard = (props) => {
   return (
     <div className="SuitesCard">
       <div className="SuitesCard__bookingBtn">
-        <button>{props.price}/Night</button>
-        <button><Link to="/reservation">Book Now</Link></button>
+        <YAnimate><button>{props.price}/Night</button></YAnimate>
+        <YAnimate><button><Link to="/reservation">Book Now</Link></button></YAnimate>
       </div>
       <div className="SuitesCard__suiteImg">
         <img src={props.suiteImg} alt="Suite Img"/>
       </div>
       <div className="SuitesCard__content">
-        <h4>{props.roomType}</h4>
+        <NegXAnimate><h4>{props.roomType}</h4></NegXAnimate>
         <p>{props.describe}</p>
         <div className="SuitesCard__content-services">
           {props.bed && <MdOutlineKingBed style={style} />}

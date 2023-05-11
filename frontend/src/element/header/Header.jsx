@@ -1,5 +1,7 @@
 import React from 'react'
 
+import YAnimate from '../animation/YAnimate'
+
 import './Header.css'
 
 const Header = (props) => {
@@ -10,7 +12,7 @@ const Header = (props) => {
 
   return (
     <div className="Header" style={bgImageStyle}>
-      <h1>{props.heading}</h1>
+      <YAnimate><h1>{props.heading}</h1></YAnimate>
     </div>
   )
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import Card from '../../../element/card/Card'
+import YAnimate from '../../../element/animation/YAnimate'
 
 import {cardData} from '../../../data/carddata'
 import './Explore.css'
@@ -15,13 +16,13 @@ const Explore = () => {
         </div>
         <div className="Explore__cards">
           {cardData.map((data) =>
-            <Card
+            <YAnimate><Card
               key={data.id}
               icon={data.icon}
               heading={data.heading}
               describe={data.describe}
               link={data.link}
-            />
+            /></YAnimate>
           )}
         </div>
       </div>
