@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import Button from '@mui/material/Button'
 import { RxHamburgerMenu } from 'react-icons/rx'
 import { RxCross2 } from 'react-icons/rx'
 
@@ -39,7 +38,7 @@ const Navbar = () => {
                     <Link to="/our-rooms">Our Rooms</Link>
                   </li>
                   <li>
-                    <Link to="/about">Gallery</Link>
+                    <Link to="/gallery">Gallery</Link>
                   </li>
                   <li>
                     <Link to="/contact">Contact</Link>
@@ -47,9 +46,9 @@ const Navbar = () => {
                 </ul>
               </div>
               <div className="Navbar__reservationbtn">
-                <button>
+                <Link to="/reservation"><button>
                   Reservation
-                </button>
+                </button></Link>
               </div>
 
               <div className="Navbar__handburgermenu">
@@ -57,31 +56,32 @@ const Navbar = () => {
                   style={style}
                   onClick={openHandBurgerMenu}
                 /> }
-                {handBurgerMenu && <nav className="Navbar__handburgermenu-nav">
-                                     <div class="Navbar__handburgermenu-icon">
-                                       <RxCross2
-                                         style={style}
-                                         onClick={closeHandBurgerMenu}
-                                       />
-                                     </div>
-                                     <ul>
-                                       <li>
-                                         <Link to="/">Home</Link>
-                                       </li>
-                                       <li>
-                                         <Link to="/about">About</Link>
-                                       </li>
-                                       <li>
-                                         <Link to="/our-rooms">Our Rooms</Link>
-                                       </li>
-                                       <li>
-                                         <Link to="/about">Gallery</Link>
-                                       </li>
-                                       <li>
-                                         <Link to="/contact">Contact</Link>
-                                       </li>
-                                     </ul>
-                                   </nav>}
+                {handBurgerMenu &&
+                 <nav className="Navbar__handburgermenu-nav">
+                   <div className="Navbar__handburgermenu-icon">
+                     <RxCross2
+                       style={style}
+                       onClick={closeHandBurgerMenu}
+                     />
+                   </div>
+                   <ul>
+                     <li>
+                       <Link to="/">Home</Link>
+                     </li>
+                     <li>
+                       <Link to="/about">About</Link>
+                     </li>
+                     <li>
+                       <Link to="/our-rooms">Our Rooms</Link>
+                     </li>
+                     <li>
+                       <Link to="/gallery">Gallery</Link>
+                     </li>
+                     <li>
+                       <Link to="/contact">Contact</Link>
+                     </li>
+                   </ul>
+                 </nav>}
               </div>
             </div>
           </nav>)

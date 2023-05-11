@@ -1,0 +1,34 @@
+.SimpleCard {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    max-width: 400px;
+}
+
+
+.SimpleCard__content h4 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    margin-bottom: 15px;
+}
+
+.SimpleCard__content p {
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(110, 110, 110);
+    line-height: 28px;
+}
+
+@media (max-width: 349px) {
+    .SimpleCard {
+        flex-direction: column;
+    }
+    .SimpleCard__content h4 {
+        text-align: center;
+    }
+    .SimpleCard__content p {
+        text-align: center;
+    }
+}

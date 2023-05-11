@@ -11,7 +11,7 @@ const Explore = () => {
         <div className="Explore__heading">
           <p>Explore</p>
           <h1>The Hotel</h1>
-          <p class="Explore__description">Proin consectetur non dolor vitae pulvinar. Pellentesque sollicitudin dolor eget neque viverra, sed interdum metus interdum. Cras lobortis pulvinar dolor, sit amet ullamcorper dolor iaculis vel</p>
+          <p className="Explore__description">Proin consectetur non dolor vitae pulvinar. Pellentesque sollicitudin dolor eget neque viverra, sed interdum metus interdum. Cras lobortis pulvinar dolor, sit amet ullamcorper dolor iaculis vel</p>
         </div>
         <div className="Explore__cards">
           {cardData.map((data) =>

@@ -12,7 +12,7 @@ const AboutRooms = (props) => {
   return (
     <div className="AboutRooms" style={styles}>
       <div className="AboutRooms__image">
-        <img src={props.aboutRoomImg} alt='About image'/>
+        <img src={props.aboutRoomImg} alt='About'/>
       </div>
       <div className="AboutRooms__content">
         <p className="AboutRooms__content-subheading">{props.subHeading}</p>

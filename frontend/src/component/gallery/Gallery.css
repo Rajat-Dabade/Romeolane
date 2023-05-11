@@ -1,0 +1,12 @@
+.Gallery__content {
+    margin: 40px 0;
+}
+
+.Gallery__content ul {
+    margin: auto;
+}
+
+.Gallery__content img {
+    box-sizing: border-box;
+    border: 4px solid rgb(100, 66, 34);
+}

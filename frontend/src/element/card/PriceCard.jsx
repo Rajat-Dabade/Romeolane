@@ -26,7 +26,7 @@ const PriceCard = (props) => {
     <div className="PriceCard" style={backgroundColorStyle}>
       <div className="PriceCard__per">{props.per}</div>
       <h2 style={colorStyle}>{props.heading}</h2>
-      <p class="PriceCard__subheading" style={colorStyle}>{props.subheading}</p>
+      <p className="PriceCard__subheading" style={colorStyle}>{props.subheading}</p>
       <h1 style={colorStyle}>{props.price} Rs</h1>
       <hr/>
       <div className="PriceCard__list" style={colorStyle}>

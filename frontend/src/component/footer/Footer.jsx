@@ -21,6 +21,7 @@ const Footer = () => {
       <div className="footer_Base">
         <Grid container spacing={2} className="footer_Base_Grid">
           <Grid
+            container
             direction="column"
             display="flex"
             justify="center"

@@ -6,6 +6,8 @@ import Home from './component/home/Home'
 import About from './component/about/About'
 import OurRooms from './component/our-rooms/OurRooms'
 import Contact from './component/contact/Contact'
+import Gallery from './component/gallery/Gallery'
+import Reservation from './component/reservation/Reservation'
 
 import './App.css';
 
@@ -17,7 +19,9 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/our-rooms" element={<OurRooms />}/>
-        <Route path="/contact" element={<Contact />}/>
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/reservation" element={<Reservation />}/>
       </Routes>
     </div>
   );
