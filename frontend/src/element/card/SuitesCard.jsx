@@ -13,7 +13,8 @@ import YAnimate from '../animation/YAnimate'
 import './SuitesCard.css'
 
 const style = {
-  fontSize: '40px'
+  fontSize: '40px',
+  color: '#182244'
 }
 
 const SuitesCard = (props) => {

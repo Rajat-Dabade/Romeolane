@@ -8,5 +8,12 @@
 
 .Gallery__content img {
     box-sizing: border-box;
-    border: 4px solid rgb(100, 66, 34);
+    border: 4px solid #8f95b3;
+}
+
+@media (max-width: 768px) {
+    .Gallery__content ul {
+        display: flex;
+        flex-direction: column;
+    }
 }

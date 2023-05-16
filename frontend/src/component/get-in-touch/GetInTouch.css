@@ -1,5 +1,5 @@
 .GetInTouch {
-    background-color: rgb(247, 245, 241);
+    background-color: #F2F5FF;
     padding: 30px;
     display: flex;
     flex-direction: column;
@@ -51,13 +51,17 @@
 .GetInTouch__form-input button {
     width: 100%;
     padding: 15px;
-    background-color: rgb(100, 66, 34);
+    background-color: #ffaa34;
     font-size: 16px;
     font-weight: 600;
     text-transform: uppercase;
     color: white;
     border: none;
     cursor: pointer;
+}
+
+.GetInTouch__form-input button:hover {
+    background-color: #ffba5a;
 }
 
 @media (max-width: 566px) {

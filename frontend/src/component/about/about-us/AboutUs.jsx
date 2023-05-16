@@ -1,4 +1,5 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 import Grid from "@mui/material/Grid";
 import YAnimate from '../../../element/animation/YAnimate'
 import XAnimate from '../../../element/animation/XAnimate'
@@ -10,6 +11,13 @@ import AccomodationSingleRoom from '../../../assets/accomodation-single-room.jpg
 import './AboutUs.css'
 
 const AboutUs = () => {
+
+  const navigate = useNavigate()
+
+  const navigateToAbout = () => {
+    navigate("/about")
+  }
+
   return (
     <Grid container spacing={0} className="About__MainGrid">
       <Grid item xs={12} md={6}>
@@ -30,22 +38,15 @@ const AboutUs = () => {
         <div className="AboutUs_grid_two">
           <YAnimate><h3 className="sub_heading_aboutUs">About us</h3></YAnimate>
           <YAnimate><h1>Most Safe & Rated Hotel In Goa.</h1></YAnimate>
-          <YAnimate><p>
-            Morbi tortor urna, placerat vel arcu quis, fringilla egestas
-            neque. Morbi sit amet porta erat, quis rutrum risus. Vivamus et
-            gravida nibh, quis posuere felis. In commodo mi lectus, Integer
-            ligula lorem, finibus vitae lorem vitae tincidunt dolor consequat
-            quis. Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Est cum voluptatibus sequi ratione ducimus dolores autem!
-            Incidunt, earum quae? Vero vitae necessitatibus sit dolores omnis
-            ipsa commodi doloribus, aliquam laboriosam totam voluptates dolor,
-            similique aliquid debitis recusandae earum quos! Dolorum
-            perferendis possimus ad consequuntur mollitia aperiam laborum
-            tempore aut minima.
-          </p></YAnimate>
+          <YAnimate>
+            <p>
+              A place spreading Three Generational Romance entices the city's food lovers with the melange of its urban interiors paired with delectable food and upbeat handcrafted drinks and more. An everyday and all day restaurant, the Romeo Lane is a place for pretyy sunsets. Scrumptions food and Delicious drinks.
+              The idea is to have the perfect amalgamation of innovative food, potent concoctions, breathtaking interiors, culinary cocktails and entertainment followed by unmatched hospitality. Our goal is to have a pan India presence in all metros and a few chosen B cities. After which, we would work on International exposure.
+            </p>
+          </YAnimate>
           <br />
           <div className="about_discoverMore_btn">
-            <XAnimate><button>Discover More</button></XAnimate>
+            <XAnimate><button onClick={navigateToAbout}>Discover More</button></XAnimate>
           </div>
         </div>
       </Grid>

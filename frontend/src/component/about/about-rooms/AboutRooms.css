@@ -1,6 +1,6 @@
 .AboutRooms {
     display: flex;
-    background-color: rgb(247, 245, 241);
+    background-color: #F2F5FF;
     align-items: center;
     justify-content: center;
 }
@@ -41,7 +41,7 @@
     border: none;
     text-transform: uppercase;
     padding: 25px 30px;
-    background: rgb(100, 66, 34);
+    background: #ffaa34;
 }
 
 .AboutRooms__content button a {

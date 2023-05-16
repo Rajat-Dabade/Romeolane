@@ -46,6 +46,12 @@
     cursor: pointer;
 }
 
+.Home__heading-whatsapp {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
 @media (max-width: 1076px) {
     .Home__main {
         flex-wrap: wrap;

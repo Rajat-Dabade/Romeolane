@@ -11,8 +11,8 @@ const Explore = () => {
       <div className="Explore__content">
         <div className="Explore__heading">
           <p>Explore</p>
-          <h1>The Hotel</h1>
-          <p className="Explore__description">Proin consectetur non dolor vitae pulvinar. Pellentesque sollicitudin dolor eget neque viverra, sed interdum metus interdum. Cras lobortis pulvinar dolor, sit amet ullamcorper dolor iaculis vel</p>
+          <h1>The Resort</h1>
+          <p className="Explore__description">Our mission is to build brand loyalty by enhancing and exceeding customer expectations with quality dining experiences and state of the art interiors.</p>
         </div>
         <div className="Explore__cards">
           {cardData.map((data) =>

@@ -24,10 +24,14 @@
     width: 100%;
     height: 70px;
     margin-top: 25px;
-    background-color: #be9874;
+    background-color: #ffba5a;
     border: none;
     color: white;
     font-size: 17px;
+}
+
+.BookARoom__inputfield button:hover {
+    background-color: #ffaa34;
 }
 
 @media (max-width: 571px) {

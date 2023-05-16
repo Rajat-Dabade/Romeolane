@@ -13,7 +13,7 @@
 }
 
 .about_discoverMore_btn button {
-  background-color: #86461c;
+  background-color: #ffaa34;
   border-radius: none;
   padding: 16px 30px;
   border: none;
@@ -22,8 +22,12 @@
   cursor: pointer;
 }
 
+.about_discoverMore_btn button:hover {
+  background-color: #ffba5a;
+}
+
 .sub_heading_aboutUs {
-  color: #86461c;
+  color: #182244;
   font-family: "Jost", sans-serif;
   font-weight: bolder;
 }

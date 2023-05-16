@@ -38,7 +38,7 @@
 }
 
 .PriceCard h1 {
-    color: rgb(100, 66, 34);
+    color: #ffaa34;
     font-size: 50px;
     font-weight: 700;
     line-height: 65px;
@@ -75,7 +75,7 @@
 .PriceCard button {
     border: none;
     padding: 20px 40px;
-    background-color: #644222;
+    background-color: #ffaa34;
     width: 80%;
     cursor: pointer;
     position: absolute;

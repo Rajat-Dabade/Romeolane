@@ -66,19 +66,19 @@ const Navbar = () => {
                    </div>
                    <ul>
                      <li>
-                       <Link to="/">Home</Link>
+                       <Link to="/" onClick={closeHandBurgerMenu}>Home</Link>
                      </li>
                      <li>
-                       <Link to="/about">About</Link>
+                       <Link to="/about" onClick={closeHandBurgerMenu}>About</Link>
                      </li>
                      <li>
-                       <Link to="/our-rooms">Our Rooms</Link>
+                       <Link to="/our-rooms" onClick={closeHandBurgerMenu}>Our Rooms</Link>
                      </li>
                      <li>
-                       <Link to="/gallery">Gallery</Link>
+                       <Link to="/gallery" onClick={closeHandBurgerMenu}>Gallery</Link>
                      </li>
                      <li>
-                       <Link to="/contact">Contact</Link>
+                       <Link to="/contact" onClick={closeHandBurgerMenu}>Contact</Link>
                      </li>
                    </ul>
                  </nav>}
