@@ -1,5 +1,8 @@
 .Testimonial {
     background-image: url('../../assets/testimonial-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 80px 30px;
 }
 

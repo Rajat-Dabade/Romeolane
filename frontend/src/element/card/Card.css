@@ -24,3 +24,9 @@
     align-items: center;
     gap: 10px;
 }
+
+@media (max-width: 400px) {
+    .Card {
+        width: 320px;
+    }
+}
