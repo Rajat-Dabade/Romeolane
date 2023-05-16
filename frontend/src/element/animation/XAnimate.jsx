@@ -1,6 +1,11 @@
 import React, { useEffect, useRef } from 'react'
 import { motion, useInView, useAnimation } from 'framer-motion'
 
+const DesktopXVariants = {
+  hidden: { opacity: 0, x: 75 },
+  visible: { opacity: 1, x: 0 }
+}
+
 const XVariants = {
   hidden: { opacity: 0, scaleX: 0 },
   visible: { opacity: 1, scaleX: 1 }
@@ -19,6 +24,11 @@ const XAnimate = (props) => {
     }
   }, [isInView, mainControls])
 
+   const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
+  // Conditionally apply the animation only on mobile
+  const variants = isMobile ? XVariants : DesktopXVariants;
+
   return (
     <motion.div
       style={{
@@ -27,7 +37,7 @@ const XAnimate = (props) => {
         overflow: 'hidden'
       }}
       ref={ref}
-      variants={XVariants}
+      variants={variants}
       initial="hidden"
       animate={mainControls}
       transition={{ duration: 0.75, delay: 0.25 }}
