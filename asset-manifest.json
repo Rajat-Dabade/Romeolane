@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4379af78.css",
+    "main.js": "/static/js/main.10549bcc.js",
+    "static/js/787.cda612ba.chunk.js": "/static/js/787.cda612ba.chunk.js",
+    "static/media/about-6.jpg": "/static/media/about-6.c2fb9e9ec75785703840.jpg",
+    "static/media/aboutHeaderSectionImg.jpg": "/static/media/aboutHeaderSectionImg.6ebb26da17bbbf135f63.jpg",
+    "static/media/aboutHero.jpg": "/static/media/aboutHero.49e7bf2f71ba5ab5bfd4.jpg",
+    "static/media/image4.jpg": "/static/media/image4.79ace053904957866afc.jpg",
+    "static/media/image5.jpg": "/static/media/image5.581158d704074d69e0a3.jpg",
+    "static/media/image6.jpg": "/static/media/image6.509077436b081662f619.jpg",
+    "static/media/about-1.jpg": "/static/media/about-1.bbe17ddc3d9f1088357d.jpg",
+    "static/media/image8.jpg": "/static/media/image8.18cc7f821f93dbe9ecb7.jpg",
+    "static/media/image12.jpg": "/static/media/image12.042ebbc1688ca1d40a8e.jpg",
+    "static/media/image7.jpg": "/static/media/image7.f0d583e6038679739775.jpg",
+    "static/media/image11.jpg": "/static/media/image11.d0d2a621a1367e1c41f6.jpg",
+    "static/media/image10.jpg": "/static/media/image10.6cafcc0a7bd7b544dfec.jpg",
+    "static/media/image9.jpg": "/static/media/image9.607f115a4940230370c1.jpg",
+    "static/media/image1.jpg": "/static/media/image1.c94cbac29f502ee0b051.jpg",
+    "static/media/accomodation-single-room.jpg": "/static/media/accomodation-single-room.56d52c41494bb83d645a.jpg",
+    "static/media/image2.jpg": "/static/media/image2.e5c66e4541e2ffda9c40.jpg",
+    "static/media/image3.jpg": "/static/media/image3.60c4e9460fbcbe5ecc19.jpg",
+    "static/media/Delux_Cottage.png": "/static/media/Delux_Cottage.fe0f49816402a16c4b1a.png",
+    "static/media/wild_groove.jpg": "/static/media/wild_groove.1e07d95295493a7f1449.jpg",
+    "static/media/lagoon.jpg": "/static/media/lagoon.14aa4355626b2aa67aa1.jpg",
+    "static/media/royalty.jpg": "/static/media/royalty.90f83eacdd61f5efc2db.jpg",
+    "static/media/sundowner.jpg": "/static/media/sundowner.9a7f42e79c2171a0a47a.jpg",
+    "static/media/cocoon.jpg": "/static/media/cocoon.1204539adbd908f07333.jpg",
+    "static/media/aqua.jpg": "/static/media/aqua.827ebfbbefc3020841d3.jpg",
+    "static/media/testimonial-bg.png": "/static/media/testimonial-bg.31412beecfbce8b1bbb9.png",
+    "static/media/slider-3.jpg": "/static/media/slider-3.d1a304244b3b01d806cb.jpg",
+    "static/media/footer-bg.png": "/static/media/footer-bg.a14b4083746ea8d378e7.png",
+    "static/media/icon6.png": "/static/media/icon6.53354f0ed862dfd78d15.png",
+    "index.html": "/index.html",
+    "main.4379af78.css.map": "/static/css/main.4379af78.css.map",
+    "main.10549bcc.js.map": "/static/js/main.10549bcc.js.map",
+    "787.cda612ba.chunk.js.map": "/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4379af78.css",
+    "static/js/main.10549bcc.js"
+  ]
+}
