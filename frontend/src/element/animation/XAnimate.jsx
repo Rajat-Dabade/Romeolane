@@ -2,9 +2,9 @@ import React, { useEffect, useRef } from 'react'
 import { motion, useInView, useAnimation } from 'framer-motion'
 
 const XVariants = {
-  hidden: { opacity: 0, x: 75 },
-  visible: { opacity: 1, x: 0 }
-}
+  hidden: { opacity: 0, scaleX: 0 },
+  visible: { opacity: 1, scaleX: 1 }
+};
 
 const XAnimate = (props) => {
 
@@ -21,12 +21,11 @@ const XAnimate = (props) => {
 
   return (
     <motion.div
-      style={{ position: 'relative',
-               '@media (max-width: 768px)': {
-                 width: 'calc(100% - 60px)',
-                 marginRight: '80px',
-               },
-             }}
+      style={{
+        position: 'relative',
+        transformOrigin: 'right center',
+        overflow: 'hidden'
+      }}
       ref={ref}
       variants={XVariants}
       initial="hidden"
