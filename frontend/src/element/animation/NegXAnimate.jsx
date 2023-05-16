@@ -21,7 +21,7 @@ const NegXAnimate = (props) => {
 
   return (
     <motion.div
-      style={{ position: 'relative' }}
+      style={{ position: 'relative', width: '100%' }}
       ref={ref}
       variants={NegXVariants}
       initial="hidden"

@@ -18,9 +18,9 @@ const MakeAppointment = () => {
       </div>
       <div className="MakeAppointment__content">
         <NegXAnimate><BookARoom /></NegXAnimate>
-        <XAnimate><div className="MakeAppointment__content-img">
+        <div className="MakeAppointment__content-img">
           <img src={MakeAppointmentImg} alt="Make Appointment"/>
-        </div></XAnimate>
+        </div>
       </div>
     </div>
   )
