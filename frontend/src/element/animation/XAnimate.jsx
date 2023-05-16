@@ -21,7 +21,12 @@ const XAnimate = (props) => {
 
   return (
     <motion.div
-      style={{ position: 'relative', width: 'calc(100% - 60px)', marginRight: '80px' }}
+      style={{ position: 'relative',
+               '@media (max-width: 768px)': {
+                 width: 'calc(100% - 60px)',
+                 marginRight: '80px',
+               },
+             }}
       ref={ref}
       variants={XVariants}
       initial="hidden"
