@@ -8,7 +8,8 @@
 
 .SuitesCard__bookingBtn {
     position: absolute;
-    top: 50%;
+    top: 53%;
+    transform: translateY(-50%);
     display: flex;
     width: 100%;
     justify-content: center;
