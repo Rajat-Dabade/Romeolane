@@ -39,7 +39,7 @@
 .AboutRooms__content button {
     margin: 20px 0;
     border: none;
-    text-transform: uppercase;
+    text-transform: capitalize;
     padding: 25px 30px;
     background: #ffaa34;
 }

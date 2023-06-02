@@ -29,3 +29,18 @@
   flex-direction: row;
   gap: 25px;
 }
+
+.copyright_Icons a {
+  color: white;
+}
+
+@media (max-width: 480px) {
+  .copyright__content {
+    text-align: center;
+  }
+
+  .copyright_Icons {
+    width: 100%;
+    justify-content: center;
+  }
+}

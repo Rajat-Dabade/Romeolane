@@ -28,36 +28,39 @@ const Footer = () => {
             item
             xs={12}
             md={4}
+            className="footer_base_grid_content"
           >
             <div className="footer_Info">
               <div className="footer_logo">
                 <img src={logo} alt="Logo"/>
               </div>
-              <div className="footer__details">
-                <div>
-                  <CallIcon style={styles} />
+              <div className="footer__content">
+                <div className="footer__details">
+                  <div>
+                    <CallIcon style={styles} />
+                  </div>
+                  <div>
+                    <p>(+91) 8222999127</p>
+                    <p>(+91) 8222999128</p>
+                  </div>
                 </div>
-                <div>
-                  <p>1800-121-3637</p>
-                  <p>+91-7052-101-786</p>
+                <div className="footer__details">
+                  <div>
+                    <EmailIcon style={styles} />
+                  </div>
+                  <div>
+                    <p>reservations.crs@romeolane.com</p>
+                  </div>
                 </div>
-              </div>
-              <div className="footer__details">
-                <div>
-                  <EmailIcon style={styles} />
-                </div>
-                <div>
-                  <p>info@example.com</p>
-                  <p>help@example.com</p>
-                </div>
-              </div>
-              <div className="footer__details">
-                <div>
-                  <LocationOnIcon style={styles} />
-                </div>
-                <div>
-                  <p>1247/Plot No. 39, 15th</p>
-                  <p>Phase, LHB Colony, Kanpur</p>
+                <div className="footer__details">
+                  <div>
+                    <LocationOnIcon style={styles} />
+                  </div>
+                  <div>
+                    <p>Romeo Lane, </p><p>The Boutique Resort, Assagao, Badem</p>
+                    <p>Vagator, Goa, </p>
+                    <p>Goa 403509</p>
+                  </div>
                 </div>
               </div>
             </div>

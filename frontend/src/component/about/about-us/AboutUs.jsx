@@ -37,7 +37,7 @@ const AboutUs = () => {
       <Grid item xs={12} md={6}>
         <div className="AboutUs_grid_two">
           <YAnimate><h3 className="sub_heading_aboutUs">About us</h3></YAnimate>
-          <YAnimate><h1>Most Safe & Rated Hotel In Goa.</h1></YAnimate>
+          <YAnimate><h1>Most Safe & Rated Resort In Goa.</h1></YAnimate>
           <YAnimate>
             <p>
               A place spreading Three Generational Romance entices the city's food lovers with the melange of its urban interiors paired with delectable food and upbeat handcrafted drinks and more. An everyday and all day restaurant, the Romeo Lane is a place for pretyy sunsets. Scrumptions food and Delicious drinks.

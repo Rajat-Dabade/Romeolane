@@ -91,9 +91,6 @@
 }
 
 @media (max-width: 768px) {
-    .Navbar {
-        background: rgba(0, 0, 0, 0.3);
-    }
 
     .Navbar__handburgermenu {
         display: block;

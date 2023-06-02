@@ -12,7 +12,22 @@ const CopyRight = () => {
         <div className="copyright__content">
           <p>Copyright Romio Lane 2023. All rights reserved</p>
           <div className="copyright_Icons">
-            <FacebookIcon /> <InstagramIcon /> <TwitterIcon /> <YouTubeIcon />
+            <a
+              href="https://www.facebook.com/romeolanedelhi?mibextid=LQQJ4d"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FacebookIcon />
+            </a>
+            <a
+              href="https://instagram.com/romeolanetheboutiqueresort?igshid=ZWQyN2ExYTkwZQ=="
+              target="_blank"
+              rel="noreferrer"
+            >
+              <InstagramIcon />
+            </a>
+            {/* <TwitterIcon /> */}
+            {/* <YouTubeIcon /> */}
           </div>
         </div>
       </div>

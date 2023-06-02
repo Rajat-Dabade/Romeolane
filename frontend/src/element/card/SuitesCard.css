@@ -59,4 +59,8 @@
     .SuitesCard {
         width: 380px;
     }
+
+    .SuitesCard__bookingBtn {
+        top: 47%;
+    }
 }
