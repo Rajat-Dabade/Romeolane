@@ -23,9 +23,9 @@ const OurRooms = () => {
       />
       <AboutRooms
         aboutRoomImg={CocoonImg}
-        subHeading="Luxury Stay at Hotel"
-        heading="Romeo Cocoon"
-        description="With Room sizes ranging from 210-295 sq. ft these cottages offer amenities like double bed, smart TV’s, Mini bar, Handcrafted artefacts and room décor.Cras finibus laoreet felis et hendrerit. Integer ligula lorem, finibus vitae lorem at, egestas consectetur urna. Integer id ultricies elit. Maecenas sodales nibh, quis posuere felis. In commodo mi lectus venenatis metus eget fringilla. Suspendisse varius ante eget."
+        subHeading="Luxury Suite (Private Outdoor pool with Patio)"
+        heading="Romeo Lagoon"
+        description="King Bed, Private Outdoor Pool with Patio, Breakfast and HI-Tea at pool (fees may apply)  in floating Pool Basket and 2 nos Signature Cocktails on the day of arrival. King Bed 485-sq-foot individually decorated room, balcony/patio with pool views Layout - Separate sitting area Relax - Private pool; in-room Internet - Free Wi-Fi 25+ Mbps Entertainment - 42-inch LCD TV with satellite channels, pay movies, Food & Drink - Refrigerator, minibar (fees may apply), coffee/tea maker, and 24-hour room service Sleep - Bed sheets Bathroom - Private bathroom, bathrobes, and shower with a rainfall showerhead, - Electronics safe."
       />
       <MakeAppointment />
       <Footer />
