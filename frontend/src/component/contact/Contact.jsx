@@ -44,7 +44,7 @@ const Contact = () => {
               subheading="reservations.crs@romeolane.com"
             />
           </div>
-          <div classNam="Content__content-form">
+          <div className="Content__content-form">
             <GetInTouch />
           </div>
         </div>

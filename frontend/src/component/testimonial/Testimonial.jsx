@@ -19,8 +19,10 @@ const Testimonial = () => {
         </div>
         <div className="Testimonial__cards">
           {reviewData.map((review) =>
-            <YAnimate><ReviewCard
+            <YAnimate
               key={review.id}
+            >
+              <ReviewCard
               name={review.name}
               city={review.city}
               review={review.review}

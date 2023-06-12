@@ -16,8 +16,9 @@ const Explore = () => {
         </div>
         <div className="Explore__cards">
           {cardData.map((data) =>
-            <YAnimate><Card
+            <YAnimate
               key={data.id}
+            ><Card
               icon={data.icon}
               heading={data.heading}
               describe={data.describe}
