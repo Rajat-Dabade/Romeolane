@@ -35,3 +35,9 @@
     max-width: 1600px;
     margin: auto;
 }
+
+@media (max-width: 768px) {
+    .RoomAndSuites__heading p {
+        width: 90%;
+    }
+}

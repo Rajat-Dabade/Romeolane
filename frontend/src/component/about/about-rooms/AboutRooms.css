@@ -71,3 +71,10 @@
         padding: 40px;
     }
 }
+
+@media (max-width: 446px) {
+    .AboutRooms__content h1 {
+        font-size: 47px;
+        line-height: 47px;
+    }
+}
